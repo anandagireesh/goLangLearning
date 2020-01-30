@@ -15,7 +15,14 @@ func main() {
 
 	fmt.Println(cards.toString())
 
-	cards.saveToFile("mycard")
+	fmt.Println(".......................................................................................")
+	fmt.Println(".......................................................................................")
+	fmt.Println(".......................................................................................")
+	fmt.Println(".......................................................................................")
+	fmt.Println("My cards from file")
+	myCards := newDeckFromFile("mycard")
+	myCards.print()
+	//cards.saveToFile("mycard")
 
 	// hand, remainingCards := deal(cards, 6)
 
