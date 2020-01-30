@@ -15,6 +15,8 @@ func main() {
 
 	fmt.Println(cards.toString())
 
+	cards.saveToFile("mycard")
+
 	// hand, remainingCards := deal(cards, 6)
 
 	// // cards.print()
